@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chumpy"
+authors = [{ name = "Matthew Loper", email = "matt.loper@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+version = "0.71"
+dependencies = ["numpy >= 1.8.1", "scipy >= 0.13.0", "six >= 1.11.0"]
